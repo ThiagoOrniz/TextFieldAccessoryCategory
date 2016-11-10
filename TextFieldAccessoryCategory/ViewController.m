@@ -15,9 +15,6 @@
 
 @interface ViewController ()
 
-@property (strong, nonatomic) UITextField *currentTextField;
-@property int currentIndex;
-
 @end
 
 @implementation ViewController
@@ -31,6 +28,7 @@
     
     [self.textField1 setInputAccessoryView:[self.textField1 setAccessoryViewForTextField:self.textField1 andNextTextField:self.textField2]];
     
+    // the last UITextField on the screen, must pass nil to the nextTextField param
     [self.textField2 setInputAccessoryView:[self.textField2 setAccessoryViewForTextField:self.textField2 andNextTextField:nil]];
 }
 
