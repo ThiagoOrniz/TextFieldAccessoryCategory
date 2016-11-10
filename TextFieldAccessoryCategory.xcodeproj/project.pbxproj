@@ -15,6 +15,7 @@
 		AF4F73691DD52D6B002661A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF4F73671DD52D6B002661A7 /* LaunchScreen.storyboard */; };
 		AF4F73741DD52D6B002661A7 /* TextFieldAccessoryCategoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4F73731DD52D6B002661A7 /* TextFieldAccessoryCategoryTests.m */; };
 		AF4F737F1DD52D6C002661A7 /* TextFieldAccessoryCategoryUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4F737E1DD52D6C002661A7 /* TextFieldAccessoryCategoryUITests.m */; };
+		AF4F738E1DD52DF2002661A7 /* UITextField+Accessory.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4F738D1DD52DF2002661A7 /* UITextField+Accessory.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		AF4F737A1DD52D6C002661A7 /* TextFieldAccessoryCategoryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TextFieldAccessoryCategoryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF4F737E1DD52D6C002661A7 /* TextFieldAccessoryCategoryUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextFieldAccessoryCategoryUITests.m; sourceTree = "<group>"; };
 		AF4F73801DD52D6C002661A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF4F738C1DD52DF2002661A7 /* UITextField+Accessory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+Accessory.h"; sourceTree = "<group>"; };
+		AF4F738D1DD52DF2002661A7 /* UITextField+Accessory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+Accessory.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,14 +104,11 @@
 		AF4F73581DD52D6B002661A7 /* TextFieldAccessoryCategory */ = {
 			isa = PBXGroup;
 			children = (
-				AF4F735C1DD52D6B002661A7 /* AppDelegate.h */,
-				AF4F735D1DD52D6B002661A7 /* AppDelegate.m */,
+				AF4F73621DD52D6B002661A7 /* Main.storyboard */,
 				AF4F735F1DD52D6B002661A7 /* ViewController.h */,
 				AF4F73601DD52D6B002661A7 /* ViewController.m */,
-				AF4F73621DD52D6B002661A7 /* Main.storyboard */,
-				AF4F73651DD52D6B002661A7 /* Assets.xcassets */,
-				AF4F73671DD52D6B002661A7 /* LaunchScreen.storyboard */,
-				AF4F736A1DD52D6B002661A7 /* Info.plist */,
+				AF4F738C1DD52DF2002661A7 /* UITextField+Accessory.h */,
+				AF4F738D1DD52DF2002661A7 /* UITextField+Accessory.m */,
 				AF4F73591DD52D6B002661A7 /* Supporting Files */,
 			);
 			path = TextFieldAccessoryCategory;
@@ -117,6 +117,11 @@
 		AF4F73591DD52D6B002661A7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				AF4F735C1DD52D6B002661A7 /* AppDelegate.h */,
+				AF4F735D1DD52D6B002661A7 /* AppDelegate.m */,
+				AF4F73651DD52D6B002661A7 /* Assets.xcassets */,
+				AF4F73671DD52D6B002661A7 /* LaunchScreen.storyboard */,
+				AF4F736A1DD52D6B002661A7 /* Info.plist */,
 				AF4F735A1DD52D6B002661A7 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -273,6 +278,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF4F738E1DD52DF2002661A7 /* UITextField+Accessory.m in Sources */,
 				AF4F73611DD52D6B002661A7 /* ViewController.m in Sources */,
 				AF4F735E1DD52D6B002661A7 /* AppDelegate.m in Sources */,
 				AF4F735B1DD52D6B002661A7 /* main.m in Sources */,
