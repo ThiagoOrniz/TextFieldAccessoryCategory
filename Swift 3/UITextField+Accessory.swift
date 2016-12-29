@@ -1,14 +1,13 @@
 //
 //  TextFieldAccessory.swift
-//  Dug-iOS
 //
 //  Created by Thiago Orniz Martin on 28/12/16.
-//  Copyright © 2016 Siena Adm. All rights reserved.
+//  Copyright © 2016 Thiago Orniz. All rights reserved.
 //
 
 import UIKit
 
-private var nextTextFieldKey: UInt8 = 0 // We still need this boilerplate
+private var nextTextFieldKey: UInt8 = 0
 
 extension UITextField{
     
