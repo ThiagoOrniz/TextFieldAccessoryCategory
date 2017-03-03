@@ -48,7 +48,7 @@ extension UITextField {
         let doneBarButtonItem: UIBarButtonItem = UIBarButtonItem()
         doneBarButtonItem.target = self
         doneBarButtonItem.action = #selector(doneBarButtonItemTouched)
-        doneBarButtonItem.title = nextTextField == nil ? "Next" : "Done"
+        doneBarButtonItem.title = nextTextField == nil ? "Done" : "Next"
         
         let flexible:UIBarButtonItem = UIBarButtonItem(barButtonSystemItem: .flexibleSpace, target: self, action: nil)
         
