@@ -43,7 +43,7 @@ extension UITextField {
         toolbar.frame = rect
         toolbar.backgroundColor = .white
         
-        let title:UILabel = self.setLabelWithTitle(title: self.placeholder ?? "")
+        let title:UILabel = self.setLabel(withTitle: self.placeholder ?? "")
         
         let doneBarButtonItem: UIBarButtonItem = UIBarButtonItem()
         doneBarButtonItem.target = self
@@ -63,7 +63,7 @@ extension UITextField {
         return toolbar
     }
     
-    private func setLabelWithTitle(title: String) -> UILabel {
+     private func setLabel(withTitle title: String) -> UILabel {
         
         let titleLabel:UILabel = UILabel()
         let rect = CGRect(x: 16, y: 0, width: 200, height: 40)
